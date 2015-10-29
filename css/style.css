@@ -1,0 +1,52 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:skyblue;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+
+
+div{
+    list-style-type: none;
+    text-align: center;
+    height: 50px;
+    width:calc(100%/4);
+    display: inline-block;
+}
+
+#one{
+    background-color: red;
+}
+#one:active{
+    background-color:green;
+}
+
+#two{
+    background-color: green;
+    margin: 0 -3.6px;  
+}
+#two:active{
+    background-color:yellow;
+}
+
+#three{
+    background-color: yellow;
+    margin: 0 -3.6px;
+}
+
+#three:active{
+    background-color: blue;
+}
+
+#four{
+    background-color: blue;
+}
+
+#four:active{
+    background-color: red;
+}
